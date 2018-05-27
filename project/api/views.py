@@ -1,10 +1,19 @@
 from django.contrib.auth.models import User
+from project.api import models
 from rest_framework import viewsets
-from project.api.serializers import UserSerializer
+from project.api import serializers
+
 
 class UserViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint which allows CRUD operations on Users
-    """
     queryset = User.objects.all()
-    serializer_class = UserSerializer
+    serializer_class = serializers.UserSerializer
+
+
+class PartCategoryViewSet(viewsets.ModelViewSet):
+    queryset = models.PartCategory.objects.all()
+    serializer_class = serializers.PartCategorySerializer
+
+
+class PartViewSet(viewsets.ModelViewSet):
+    queryset = models.Part.objects.all()
+    serializer_class = serializers.PartSerializer
