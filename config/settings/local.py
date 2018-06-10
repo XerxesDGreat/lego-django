@@ -1,4 +1,6 @@
 from .base import *
 
 SECRET_KEY = env('DJANGO_SECRET_KEY', default='b+%@+jji%t)u7kqi$np+4e+mfs%cprrsy*s)mtglm6i_l7!-si')
-DEBUG = env.bool('DJANGO_DEBUG', True);
+DEBUG = env.bool('DJANGO_DEBUG', True)
+
+CORS_ORIGIN_ALLOW_ALL = True

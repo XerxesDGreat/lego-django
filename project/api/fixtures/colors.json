@@ -1,0 +1,1217 @@
+[
+    {
+        "model": "api.color",
+        "pk": -1,
+        "fields": {
+            "name": "Unknown",
+            "rgb": "0033B2",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 0,
+        "fields": {
+            "name": "Black",
+            "rgb": "05131D",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 1,
+        "fields": {
+            "name": "Blue",
+            "rgb": "0055BF",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 2,
+        "fields": {
+            "name": "Green",
+            "rgb": "237841",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 3,
+        "fields": {
+            "name": "Dark Turquoise",
+            "rgb": "008F9B",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 4,
+        "fields": {
+            "name": "Red",
+            "rgb": "C91A09",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 5,
+        "fields": {
+            "name": "Dark Pink",
+            "rgb": "C870A0",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 6,
+        "fields": {
+            "name": "Brown",
+            "rgb": "583927",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 7,
+        "fields": {
+            "name": "Light Gray",
+            "rgb": "9BA19D",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 8,
+        "fields": {
+            "name": "Dark Gray",
+            "rgb": "6D6E5C",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 9,
+        "fields": {
+            "name": "Light Blue",
+            "rgb": "B4D2E3",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 10,
+        "fields": {
+            "name": "Bright Green",
+            "rgb": "4B9F4A",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 11,
+        "fields": {
+            "name": "Light Turquoise",
+            "rgb": "55A5AF",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 12,
+        "fields": {
+            "name": "Salmon",
+            "rgb": "F2705E",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 13,
+        "fields": {
+            "name": "Pink",
+            "rgb": "FC97AC",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 14,
+        "fields": {
+            "name": "Yellow",
+            "rgb": "F2CD37",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 15,
+        "fields": {
+            "name": "White",
+            "rgb": "FFFFFF",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 17,
+        "fields": {
+            "name": "Light Green",
+            "rgb": "C2DAB8",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 18,
+        "fields": {
+            "name": "Light Yellow",
+            "rgb": "FBE696",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 19,
+        "fields": {
+            "name": "Tan",
+            "rgb": "E4CD9E",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 20,
+        "fields": {
+            "name": "Light Violet",
+            "rgb": "C9CAE2",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 21,
+        "fields": {
+            "name": "Glow In Dark Opaque",
+            "rgb": "D4D5C9",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 22,
+        "fields": {
+            "name": "Purple",
+            "rgb": "81007B",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 23,
+        "fields": {
+            "name": "Dark Blue-Violet",
+            "rgb": "2032B0",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 25,
+        "fields": {
+            "name": "Orange",
+            "rgb": "FE8A18",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 26,
+        "fields": {
+            "name": "Magenta",
+            "rgb": "923978",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 27,
+        "fields": {
+            "name": "Lime",
+            "rgb": "BBE90B",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 28,
+        "fields": {
+            "name": "Dark Tan",
+            "rgb": "958A73",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 29,
+        "fields": {
+            "name": "Bright Pink",
+            "rgb": "E4ADC8",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 30,
+        "fields": {
+            "name": "Medium Lavender",
+            "rgb": "AC78BA",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 31,
+        "fields": {
+            "name": "Lavender",
+            "rgb": "E1D5ED",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 32,
+        "fields": {
+            "name": "Trans-Black IR Lens",
+            "rgb": "635F52",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 33,
+        "fields": {
+            "name": "Trans-Dark Blue",
+            "rgb": "0020A0",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 34,
+        "fields": {
+            "name": "Trans-Green",
+            "rgb": "84B68D",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 35,
+        "fields": {
+            "name": "Trans-Bright Green",
+            "rgb": "D9E4A7",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 36,
+        "fields": {
+            "name": "Trans-Red",
+            "rgb": "C91A09",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 40,
+        "fields": {
+            "name": "Trans-Black",
+            "rgb": "635F52",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 41,
+        "fields": {
+            "name": "Trans-Light Blue",
+            "rgb": "AEEFEC",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 42,
+        "fields": {
+            "name": "Trans-Neon Green",
+            "rgb": "F8F184",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 43,
+        "fields": {
+            "name": "Trans-Very Lt Blue",
+            "rgb": "C1DFF0",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 45,
+        "fields": {
+            "name": "Trans-Dark Pink",
+            "rgb": "DF6695",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 46,
+        "fields": {
+            "name": "Trans-Yellow",
+            "rgb": "F5CD2F",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 47,
+        "fields": {
+            "name": "Trans-Clear",
+            "rgb": "FCFCFC",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 52,
+        "fields": {
+            "name": "Trans-Purple",
+            "rgb": "A5A5CB",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 54,
+        "fields": {
+            "name": "Trans-Neon Yellow",
+            "rgb": "DAB000",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 57,
+        "fields": {
+            "name": "Trans-Neon Orange",
+            "rgb": "FF800D",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 60,
+        "fields": {
+            "name": "Chrome Antique Brass",
+            "rgb": "645A4C",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 61,
+        "fields": {
+            "name": "Chrome Blue",
+            "rgb": "6C96BF",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 62,
+        "fields": {
+            "name": "Chrome Green",
+            "rgb": "3CB371",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 63,
+        "fields": {
+            "name": "Chrome Pink",
+            "rgb": "AA4D8E",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 64,
+        "fields": {
+            "name": "Chrome Black",
+            "rgb": "1B2A34",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 68,
+        "fields": {
+            "name": "Very Light Orange",
+            "rgb": "F3CF9B",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 69,
+        "fields": {
+            "name": "Light Purple",
+            "rgb": "CD6298",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 70,
+        "fields": {
+            "name": "Reddish Brown",
+            "rgb": "582A12",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 71,
+        "fields": {
+            "name": "Light Bluish Gray",
+            "rgb": "A0A5A9",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 72,
+        "fields": {
+            "name": "Dark Bluish Gray",
+            "rgb": "6C6E68",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 73,
+        "fields": {
+            "name": "Medium Blue",
+            "rgb": "5A93DB",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 74,
+        "fields": {
+            "name": "Medium Green",
+            "rgb": "73DCA1",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 75,
+        "fields": {
+            "name": "Speckle Black-Copper",
+            "rgb": "000000",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 76,
+        "fields": {
+            "name": "Speckle DBGray-Silver",
+            "rgb": "635F61",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 77,
+        "fields": {
+            "name": "Light Pink",
+            "rgb": "FECCCF",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 78,
+        "fields": {
+            "name": "Light Flesh",
+            "rgb": "F6D7B3",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 79,
+        "fields": {
+            "name": "Milky White",
+            "rgb": "FFFFFF",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 80,
+        "fields": {
+            "name": "Metallic Silver",
+            "rgb": "A5A9B4",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 81,
+        "fields": {
+            "name": "Metallic Green",
+            "rgb": "899B5F",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 82,
+        "fields": {
+            "name": "Metallic Gold",
+            "rgb": "DBAC34",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 84,
+        "fields": {
+            "name": "Medium Dark Flesh",
+            "rgb": "CC702A",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 85,
+        "fields": {
+            "name": "Dark Purple",
+            "rgb": "3F3691",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 86,
+        "fields": {
+            "name": "Dark Flesh",
+            "rgb": "7C503A",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 89,
+        "fields": {
+            "name": "Royal Blue",
+            "rgb": "4C61DB",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 92,
+        "fields": {
+            "name": "Flesh",
+            "rgb": "D09168",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 100,
+        "fields": {
+            "name": "Light Salmon",
+            "rgb": "FEBABD",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 110,
+        "fields": {
+            "name": "Violet",
+            "rgb": "4354A3",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 112,
+        "fields": {
+            "name": "Blue-Violet",
+            "rgb": "6874CA",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 114,
+        "fields": {
+            "name": "Glitter Trans-Dark Pink",
+            "rgb": "DF6695",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 115,
+        "fields": {
+            "name": "Medium Lime",
+            "rgb": "C7D23C",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 117,
+        "fields": {
+            "name": "Glitter Trans-Clear",
+            "rgb": "FFFFFF",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 118,
+        "fields": {
+            "name": "Aqua",
+            "rgb": "B3D7D1",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 120,
+        "fields": {
+            "name": "Light Lime",
+            "rgb": "D9E4A7",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 125,
+        "fields": {
+            "name": "Light Orange",
+            "rgb": "F9BA61",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 129,
+        "fields": {
+            "name": "Glitter Trans-Purple",
+            "rgb": "A5A5CB",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 132,
+        "fields": {
+            "name": "Speckle Black-Silver",
+            "rgb": "000000",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 133,
+        "fields": {
+            "name": "Speckle Black-Gold",
+            "rgb": "000000",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 134,
+        "fields": {
+            "name": "Copper",
+            "rgb": "AE7A59",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 135,
+        "fields": {
+            "name": "Pearl Light Gray",
+            "rgb": "9CA3A8",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 137,
+        "fields": {
+            "name": "Metal Blue",
+            "rgb": "7988A1",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 142,
+        "fields": {
+            "name": "Pearl Light Gold",
+            "rgb": "DCBC81",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 143,
+        "fields": {
+            "name": "Trans-Medium Blue",
+            "rgb": "CFE2F7",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 148,
+        "fields": {
+            "name": "Pearl Dark Gray",
+            "rgb": "575857",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 150,
+        "fields": {
+            "name": "Pearl Very Light Gray",
+            "rgb": "ABADAC",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 151,
+        "fields": {
+            "name": "Very Light Bluish Gray",
+            "rgb": "E6E3E0",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 158,
+        "fields": {
+            "name": "Yellowish Green",
+            "rgb": "DFEEA5",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 178,
+        "fields": {
+            "name": "Flat Dark Gold",
+            "rgb": "B48455",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 179,
+        "fields": {
+            "name": "Flat Silver",
+            "rgb": "898788",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 182,
+        "fields": {
+            "name": "Trans-Orange",
+            "rgb": "F08F1C",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 183,
+        "fields": {
+            "name": "Pearl White",
+            "rgb": "F2F3F2",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 191,
+        "fields": {
+            "name": "Bright Light Orange",
+            "rgb": "F8BB3D",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 212,
+        "fields": {
+            "name": "Bright Light Blue",
+            "rgb": "9FC3E9",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 216,
+        "fields": {
+            "name": "Rust",
+            "rgb": "B31004",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 226,
+        "fields": {
+            "name": "Bright Light Yellow",
+            "rgb": "FFF03A",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 230,
+        "fields": {
+            "name": "Trans-Pink",
+            "rgb": "E4ADC8",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 232,
+        "fields": {
+            "name": "Sky Blue",
+            "rgb": "7DBFDD",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 236,
+        "fields": {
+            "name": "Trans-Light Purple",
+            "rgb": "96709F",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 272,
+        "fields": {
+            "name": "Dark Blue",
+            "rgb": "0A3463",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 288,
+        "fields": {
+            "name": "Dark Green",
+            "rgb": "184632",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 294,
+        "fields": {
+            "name": "Glow In Dark Trans",
+            "rgb": "BDC6AD",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 297,
+        "fields": {
+            "name": "Pearl Gold",
+            "rgb": "AA7F2E",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 308,
+        "fields": {
+            "name": "Dark Brown",
+            "rgb": "352100",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 313,
+        "fields": {
+            "name": "Maersk Blue",
+            "rgb": "3592C3",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 320,
+        "fields": {
+            "name": "Dark Red",
+            "rgb": "720E0F",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 321,
+        "fields": {
+            "name": "Dark Azure",
+            "rgb": "078BC9",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 322,
+        "fields": {
+            "name": "Medium Azure",
+            "rgb": "36AEBF",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 323,
+        "fields": {
+            "name": "Light Aqua",
+            "rgb": "ADC3C0",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 326,
+        "fields": {
+            "name": "Olive Green",
+            "rgb": "9B9A5A",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 334,
+        "fields": {
+            "name": "Chrome Gold",
+            "rgb": "BBA53D",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 335,
+        "fields": {
+            "name": "Sand Red",
+            "rgb": "D67572",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 351,
+        "fields": {
+            "name": "Medium Dark Pink",
+            "rgb": "F785B1",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 366,
+        "fields": {
+            "name": "Earth Orange",
+            "rgb": "FA9C1C",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 373,
+        "fields": {
+            "name": "Sand Purple",
+            "rgb": "845E84",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 378,
+        "fields": {
+            "name": "Sand Green",
+            "rgb": "A0BCAC",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 379,
+        "fields": {
+            "name": "Sand Blue",
+            "rgb": "6074A1",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 383,
+        "fields": {
+            "name": "Chrome Silver",
+            "rgb": "E0E0E0",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 450,
+        "fields": {
+            "name": "Fabuland Brown",
+            "rgb": "B67B50",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 462,
+        "fields": {
+            "name": "Medium Orange",
+            "rgb": "FFA70B",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 484,
+        "fields": {
+            "name": "Dark Orange",
+            "rgb": "A95500",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 503,
+        "fields": {
+            "name": "Very Light Gray",
+            "rgb": "E6E3DA",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 1000,
+        "fields": {
+            "name": "Glow in Dark White",
+            "rgb": "D9D9D9",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 1001,
+        "fields": {
+            "name": "Medium Violet",
+            "rgb": "9391E4",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 1002,
+        "fields": {
+            "name": "Glitter Trans-Neon Green",
+            "rgb": "C0F500",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 1003,
+        "fields": {
+            "name": "Glitter Trans-Light Blue",
+            "rgb": "68BCC5",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 1004,
+        "fields": {
+            "name": "Trans Flame Yellowish Orange",
+            "rgb": "FCB76D",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 1005,
+        "fields": {
+            "name": "Trans Fire Yellow",
+            "rgb": "FBE890",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 1006,
+        "fields": {
+            "name": "Trans Light Royal Blue",
+            "rgb": "B4D4F7",
+            "is_trans": true
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 1007,
+        "fields": {
+            "name": "Reddish Lilac",
+            "rgb": "8E5597",
+            "is_trans": false
+        }
+    },
+    {
+        "model": "api.color",
+        "pk": 9999,
+        "fields": {
+            "name": "[No Color]",
+            "rgb": "05131D",
+            "is_trans": false
+        }
+    }
+]
