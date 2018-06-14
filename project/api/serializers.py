@@ -3,12 +3,6 @@ from project.api import models
 from rest_framework import serializers
 
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = User
-        fields = ('url', 'username', 'email', 'groups')
-
-
 class PartCategorySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.PartCategory
@@ -20,7 +14,7 @@ class PartSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Part
-        fields = ('part_num', 'name', 'category', 'thumbnail_url', 'colors')
+        fields = ('part_num', 'name', 'category', 'thumbnail_url', 'colors', 'created', 'updated')
 
     def get_thumbnail_url(self, obj):
         if obj.thumbnail:
@@ -37,10 +31,22 @@ class PartSerializer(serializers.ModelSerializer):
 class ColorSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Color
-        fields = ('id', 'name', 'is_trans', 'rgb')
+        fields = ('id', 'name', 'is_trans', 'rgb', 'created', 'updated')
 
 
 class ElementSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Element
-        fields = ('part', 'color', 'image_url', 'lego_element_id')
+        fields = ('id', 'part', 'color', 'image_url', 'lego_element_id', 'created', 'updated')
+
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('id', 'username', 'email')
+
+
+class UserElementSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.UserElement
+        fields = ('user', 'element', 'quantity_on_display', 'quantity_in_storage', 'created', 'updated')
