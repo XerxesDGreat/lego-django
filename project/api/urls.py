@@ -12,6 +12,7 @@ router.register(r'colors', views.ColorViewSet)
 router.register(r'elements', views.ElementViewSet)
 router.register(r'users', views.UserViewSet)
 router.register(r'me/elements', views.UserElementViewSet)
+router.register(r'me/parts', views.UserPartsViewSet, base_name='user-parts')
 
 urlpatterns = [
     path('', include(router.urls)),
