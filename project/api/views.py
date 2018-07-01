@@ -28,10 +28,17 @@ class PartViewSet(viewsets.ModelViewSet):
         :return:
         """
         queryset = models.Part.objects.all().order_by('part_num')
+        queryset = self.filter_by_category_id(queryset)
+
+        return queryset
+
+    def filter_by_category_id(self, queryset):
         category_id = self.request.query_params.get('category_id', None)
         if category_id is not None:
             queryset = queryset.filter(category=category_id)
+
         return queryset
+
 
 
 class ElementViewSet(viewsets.ModelViewSet):
@@ -67,11 +74,8 @@ class UserPartsViewSet(viewsets.GenericViewSet, viewsets.mixins.ListModelMixin):
     serializer_class = serializers.UserPartSerializer
 
     def get_queryset(self):
-        return models.UserElement.objects.values('element__part__part_num',
-                                          'element__part__name',
-                                          'element__part__category') \
-            .annotate(storage=Sum('quantity_in_storage'),
-                      display=Sum('quantity_on_display'),
-                      color_count=Count('element__color')) \
-            .filter(user=self.request.user) \
-            .order_by('element__part__part_num')
+        q = models.Part.objects.all() \
+            .distinct() \
+            .filter(element__userelement__user=self.request.user) \
+            .order_by('part_num')
+        return q

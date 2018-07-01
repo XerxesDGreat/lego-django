@@ -1,6 +1,9 @@
 from django.contrib.auth.models import User
 from project.api import models
 from rest_framework import serializers
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class PartCategorySerializer(serializers.HyperlinkedModelSerializer):
@@ -18,12 +21,7 @@ class PartSerializer(serializers.ModelSerializer):
 
     def get_thumbnail_url(self, obj):
         if obj.thumbnail:
-            return obj.thumnail
-
-        for c in obj.colors.all():
-            entity = models.Element.objects.get(part=obj.part_num, color=c.id)
-            if entity.image_url:
-                return entity.image_url
+            return obj.thumbnail
 
         return ''
 
@@ -68,15 +66,23 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class UserElementSerializer(serializers.ModelSerializer):
+    element = ElementSerializer()
+
     class Meta:
         model = models.UserElement
-        fields = ('user', 'element', 'quantity_on_display', 'quantity_in_storage', 'created', 'updated')
+        fields = '__all__'
 
 
-class UserPartSerializer(serializers.Serializer):
-    part_num = serializers.CharField(source='element__part__part_num')
-    part_name = serializers.CharField(source='element__part__name')
-    category = serializers.IntegerField(source='element__part__category')
-    storage = serializers.IntegerField()
-    display = serializers.IntegerField()
-    color_count = serializers.IntegerField()
+class UserPartSerializer(PartSerializer):
+    owned_elements = serializers.SerializerMethodField()
+
+    class Meta:
+        model = models.Part
+        fields = ('part_num', 'name', 'category', 'thumbnail_url', 'colors', 'created', 'updated', 'owned_elements')
+
+    def get_owned_elements(self, obj):
+        elements = models.UserElement.objects \
+            .filter(element__part__part_num=obj.part_num,
+                    user=self.context['request'].user) \
+            .select_related('element')
+        return UserElementSerializer(many=True).to_representation(elements)
