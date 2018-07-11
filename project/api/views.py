@@ -18,7 +18,23 @@ class ColorViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.ColorSerializer
 
 
-class PartViewSet(viewsets.ModelViewSet):
+class CategoryFilterMixin(object):
+    def filter_by_category_id(self, queryset):
+        category = None
+        category_id = self.request.query_params.get('category_id', None)
+        if category_id is not None:
+            try:
+                category = models.PartCategory.objects.get(pk=category_id)
+            except models.PartCategory.DoesNotExist:
+                category = None
+        print('category: %s' % category)
+        if category is not None:
+            queryset = queryset.filter(category=category)
+
+        return queryset
+
+
+class PartViewSet(viewsets.ModelViewSet, CategoryFilterMixin):
     queryset = models.Part.objects.all()
     serializer_class = serializers.PartSerializer
 
@@ -31,14 +47,6 @@ class PartViewSet(viewsets.ModelViewSet):
         queryset = self.filter_by_category_id(queryset)
 
         return queryset
-
-    def filter_by_category_id(self, queryset):
-        category_id = self.request.query_params.get('category_id', None)
-        if category_id is not None:
-            queryset = queryset.filter(category=category_id)
-
-        return queryset
-
 
 
 class ElementViewSet(viewsets.ModelViewSet):
@@ -69,13 +77,15 @@ class UserElementViewSet(viewsets.ModelViewSet):
     permission_classes = (permissions.IsAuthenticated,)
 
 
-class UserPartsViewSet(viewsets.GenericViewSet, viewsets.mixins.ListModelMixin):
+class UserPartsViewSet(viewsets.GenericViewSet, viewsets.mixins.ListModelMixin, CategoryFilterMixin):
     permission_classes = (permissions.IsAuthenticated,)
     serializer_class = serializers.UserPartSerializer
 
     def get_queryset(self):
-        q = models.Part.objects.all() \
+        queryset = models.Part.objects.all() \
             .distinct() \
             .filter(element__userelement__user=self.request.user) \
             .order_by('part_num')
-        return q
+        queryset = self.filter_by_category_id(queryset)
+
+        return queryset
