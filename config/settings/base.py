@@ -156,3 +156,5 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication'
     )
 }
+
+API_UPDATE_TEMP_DIR = str(APPS_DIR.path('api', 'management', 'commands', '.downloads'))
