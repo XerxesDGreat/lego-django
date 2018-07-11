@@ -27,7 +27,7 @@ class PartViewSet(viewsets.ModelViewSet):
         Override default functionality to allow filtering of parts
         :return:
         """
-        queryset = models.Part.objects.all().order_by('part_num')
+        queryset = models.Part.objects.filter(meta=0).order_by('part_num')
         queryset = self.filter_by_category_id(queryset)
 
         return queryset

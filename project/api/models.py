@@ -16,6 +16,7 @@ class Part(models.Model):
     colors = models.ManyToManyField('Color', through='Element')
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+    meta = models.BooleanField(default=0)
 
 
 class Color(models.Model):
@@ -41,5 +42,28 @@ class UserElement(models.Model):
     element = models.ForeignKey(Element, on_delete=models.CASCADE)
     quantity_on_display = models.IntegerField(default=0)
     quantity_in_storage = models.IntegerField(default=0)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
+
+
+class SetTheme(models.Model):
+    name = models.CharField(max_length=60)
+    parent = models.ForeignKey('self', on_delete=models.CASCADE)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
+
+
+class Set(models.Model):
+    """
+    This is awkward; do I call it a Set, which doesn't work because of the
+    data structure called set, or do I call it a Model, which doesn't work
+    because of the generic class type called Model? I'll call it Set, but know
+    that I thought about this for far too long.
+    """
+    set_num = models.CharField(max_length=25, primary_key=True)
+    name = models.CharField(max_length=200)
+    year = models.SmallIntegerField()
+    image_url = models.CharField(max_length=200, blank=True)
+    theme = models.ForeignKey(SetTheme, on_delete=models.SET_NULL, null=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
