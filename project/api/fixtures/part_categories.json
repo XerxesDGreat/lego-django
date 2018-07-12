@@ -1,401 +1,524 @@
 [
-    {
-        "model": "api.partcategory",
-        "pk": 1,
-        "fields": {
-            "name": "Baseplates"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 2,
-        "fields": {
-            "name": "Bricks Printed"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 3,
-        "fields": {
-            "name": "Bricks Sloped"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 4,
-        "fields": {
-            "name": "Duplo, Quatro and Primo"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 5,
-        "fields": {
-            "name": "Bricks Special"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 6,
-        "fields": {
-            "name": "Bricks Wedged"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 7,
-        "fields": {
-            "name": "Containers"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 8,
-        "fields": {
-            "name": "Technic Bricks"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 9,
-        "fields": {
-            "name": "Plates Special"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 10,
-        "fields": {
-            "name": "Tiles Printed"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 11,
-        "fields": {
-            "name": "Bricks"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 12,
-        "fields": {
-            "name": "Technic Connectors"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 13,
-        "fields": {
-            "name": "Minifigs"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 14,
-        "fields": {
-            "name": "Plates"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 15,
-        "fields": {
-            "name": "Tiles Special"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 16,
-        "fields": {
-            "name": "Windows and Doors"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 17,
-        "fields": {
-            "name": "Non-LEGO"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 18,
-        "fields": {
-            "name": "Hinges, Arms and Turntables"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 19,
-        "fields": {
-            "name": "Tiles"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 20,
-        "fields": {
-            "name": "Bricks Round and Cones"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 21,
-        "fields": {
-            "name": "Plates Round and Dishes"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 22,
-        "fields": {
-            "name": "Pneumatics"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 23,
-        "fields": {
-            "name": "Panels"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 24,
-        "fields": {
-            "name": "Other"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 25,
-        "fields": {
-            "name": "Technic Steering, Suspension and Engine"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 26,
-        "fields": {
-            "name": "Technic Special"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 27,
-        "fields": {
-            "name": "Minifig Accessories"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 28,
-        "fields": {
-            "name": "Plants and Animals"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 29,
-        "fields": {
-            "name": "Wheels and Tyres"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 30,
-        "fields": {
-            "name": "Tubes and Hoses"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 31,
-        "fields": {
-            "name": "String, Bands and Reels"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 32,
-        "fields": {
-            "name": "Bars, Ladders and Fences"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 33,
-        "fields": {
-            "name": "Rock"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 34,
-        "fields": {
-            "name": "Supports, Girders and Cranes"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 35,
-        "fields": {
-            "name": "Transportation - Sea and Air"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 36,
-        "fields": {
-            "name": "Transportation - Land"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 37,
-        "fields": {
-            "name": "Bricks Curved"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 38,
-        "fields": {
-            "name": "Flags, Signs, Plastics and Cloth"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 39,
-        "fields": {
-            "name": "Magnets and Holders"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 40,
-        "fields": {
-            "name": "Technic Panels"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 41,
-        "fields": {
-            "name": "Bionicle, Hero Factory and Constraction"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 42,
-        "fields": {
-            "name": "Belville, Scala and Fabuland"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 43,
-        "fields": {
-            "name": "Znap"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 44,
-        "fields": {
-            "name": "Mechanical"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 45,
-        "fields": {
-            "name": "Power Functions, Mindstorms and Electric"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 46,
-        "fields": {
-            "name": "Technic Axles"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 47,
-        "fields": {
-            "name": "Windscreens and Fuselage"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 48,
-        "fields": {
-            "name": "Clikits"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 49,
-        "fields": {
-            "name": "Plates Angled"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 50,
-        "fields": {
-            "name": "HO Scale"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 51,
-        "fields": {
-            "name": "Technic Beams"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 52,
-        "fields": {
-            "name": "Technic Gears"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 53,
-        "fields": {
-            "name": "Technic Pins"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 54,
-        "fields": {
-            "name": "Technic Bushes"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 55,
-        "fields": {
-            "name": "Technic Beams Special"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 56,
-        "fields": {
-            "name": "Tools"
-        }
-    },
-    {
-        "model": "api.partcategory",
-        "pk": 57,
-        "fields": {
-            "name": "Non-Buildable Figures (Duplo, Fabuland, etc)"
-        }
+  {
+    "model": "api.partcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Baseplates",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
     }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Bricks Printed",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Bricks Sloped",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 4,
+    "fields": {
+      "name": "Duplo, Quatro and Primo",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 5,
+    "fields": {
+      "name": "Bricks Special",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 6,
+    "fields": {
+      "name": "Bricks Wedged",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 7,
+    "fields": {
+      "name": "Containers",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 8,
+    "fields": {
+      "name": "Technic Bricks",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 9,
+    "fields": {
+      "name": "Plates Special",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 10,
+    "fields": {
+      "name": "Tiles Printed",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 11,
+    "fields": {
+      "name": "Bricks",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 12,
+    "fields": {
+      "name": "Technic Connectors",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 13,
+    "fields": {
+      "name": "Minifigs",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 14,
+    "fields": {
+      "name": "Plates",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 15,
+    "fields": {
+      "name": "Tiles Special",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 16,
+    "fields": {
+      "name": "Windows and Doors",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 17,
+    "fields": {
+      "name": "Non-LEGO",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 18,
+    "fields": {
+      "name": "Hinges, Arms and Turntables",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 19,
+    "fields": {
+      "name": "Tiles",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 20,
+    "fields": {
+      "name": "Bricks Round and Cones",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 21,
+    "fields": {
+      "name": "Plates Round and Dishes",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 22,
+    "fields": {
+      "name": "Pneumatics",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 23,
+    "fields": {
+      "name": "Panels",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 24,
+    "fields": {
+      "name": "Other",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 25,
+    "fields": {
+      "name": "Technic Steering, Suspension and Engine",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 26,
+    "fields": {
+      "name": "Technic Special",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 27,
+    "fields": {
+      "name": "Minifig Accessories",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 28,
+    "fields": {
+      "name": "Plants and Animals",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 29,
+    "fields": {
+      "name": "Wheels and Tyres",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 30,
+    "fields": {
+      "name": "Tubes and Hoses",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 31,
+    "fields": {
+      "name": "String, Bands and Reels",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 32,
+    "fields": {
+      "name": "Bars, Ladders and Fences",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 33,
+    "fields": {
+      "name": "Rock",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 34,
+    "fields": {
+      "name": "Supports, Girders and Cranes",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 35,
+    "fields": {
+      "name": "Transportation - Sea and Air",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 36,
+    "fields": {
+      "name": "Transportation - Land",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 37,
+    "fields": {
+      "name": "Bricks Curved",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 38,
+    "fields": {
+      "name": "Flags, Signs, Plastics and Cloth",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 39,
+    "fields": {
+      "name": "Magnets and Holders",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 40,
+    "fields": {
+      "name": "Technic Panels",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 41,
+    "fields": {
+      "name": "Bionicle, Hero Factory and Constraction",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 42,
+    "fields": {
+      "name": "Belville, Scala and Fabuland",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 43,
+    "fields": {
+      "name": "Znap",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 44,
+    "fields": {
+      "name": "Mechanical",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 45,
+    "fields": {
+      "name": "Power Functions, Mindstorms and Electric",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 46,
+    "fields": {
+      "name": "Technic Axles",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 47,
+    "fields": {
+      "name": "Windscreens and Fuselage",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 48,
+    "fields": {
+      "name": "Clikits",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 49,
+    "fields": {
+      "name": "Plates Angled",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 50,
+    "fields": {
+      "name": "HO Scale",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 51,
+    "fields": {
+      "name": "Technic Beams",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 52,
+    "fields": {
+      "name": "Technic Gears",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 53,
+    "fields": {
+      "name": "Technic Pins",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 54,
+    "fields": {
+      "name": "Technic Bushes",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 55,
+    "fields": {
+      "name": "Technic Beams Special",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 56,
+    "fields": {
+      "name": "Tools",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 57,
+    "fields": {
+      "name": "Non-Buildable Figures (Duplo, Fabuland, etc)",
+      "created": "2018-06-12T03:43:19.850Z",
+      "updated": "2018-06-12T03:43:19.854Z"
+    }
+  },
+  {
+    "model": "api.partcategory",
+    "pk": 58,
+    "fields": {
+      "name": "Stickers",
+      "created": "2018-07-06T19:12:02.810Z",
+      "updated": "2018-07-06T19:12:02.810Z"
+    }
+  }
 ]
