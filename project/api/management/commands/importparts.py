@@ -10,24 +10,15 @@ from . import _util
 class Command(BaseCommand):
     help = "Fetches and imports the database for sets and parts"
 
-    base_link = 'https://m.rebrickable.com/media/downloads/'
-    tmp_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), '.downloads')
     packages = [
         'part_categories',
         'parts',
     ]
 
-    api_key = '7a63f7230da51d57ede0d83357d160d9'
     part_color_url = "https://rebrickable.com/api/v3/lego/parts/%s/colors"
 
-    part_category_cache = None
-
     def _get_part_categories(self):
-        if self.part_category_cache is None:
-            part_categories = PartCategory.objects.all()
-            self.part_category_cache = {str(pc.id): pc for pc in part_categories}
-
-        return self.part_category_cache
+        return _util.get_cached_list('part_categories', PartCategory.objects.all())
 
     def handle(self, *args, **options):
         self._download_files()
@@ -125,7 +116,7 @@ class Command(BaseCommand):
         time.sleep(1)
 
         url = self.part_color_url % part_num
-        element_response = requests.get(url, params={"key": self.api_key})
+        element_response = _util.api_get(url, err_logger=self.stderr.write)
         if element_response.status_code != 200:
             self.stdout.write('no results for element call for part %s; got status %s (url: %s)' %
                               (part_num, element_response.status_code, url))

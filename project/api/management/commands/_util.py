@@ -17,12 +17,12 @@ def download_packages(packages, msg_writer):
         target_file_path = get_target_file_path_for_package(package)
         if os.path.isfile(target_file_path):
             continue
-        msg_writer.write("downloading package %s" % package)
+        msg_writer("downloading package %s" % package)
         source_url = get_url_source_for_package(package)
         with open(target_file_path, "wb") as target_file:
             package_file_contents = requests.get(source_url)
             if package_file_contents.status_code != 200:
-                msg_writer.write("non-200 status code (%s) when fetching file %s; failing" %
+                msg_writer("non-200 status code (%s) when fetching file %s; failing" %
                                  (package_file_contents.status_code, source_url))
             else:
                 target_file.write(package_file_contents.content)
@@ -57,7 +57,28 @@ def api_get(url, params=None, err_logger=None):
     params.update({"key": _api_key})
     response = requests.get(url, params=params)
     if response.status_code != 200:
-        err_logger = print if err_logger is None else err_logger
+        err_logger = err_logger or print
         err_logger("url get unsuccessful. Url: %s, status: %s" % (url, response.status_code))
         return None
     return response.json()
+
+
+_cached_items = {}
+
+
+def get_cached_list(list_name, queryset, id_key="id"):
+    global _cached_items
+    a = _cached_items
+    if _cached_items.get(list_name, None) is None:
+        items = {getattr(item, id_key): item for item in queryset}
+        _cached_items[list_name] = items
+    return _cached_items.get(list_name, None)
+
+
+def put_to_cached_list(list_name, item, id_key="id"):
+    global _cached_items
+    if _cached_items.get(list_name, None) is None:
+        _cached_items[list_name] = {}
+    _cached_items[list_name][getattr(item, id_key)] = item
+    a = _cached_items
+    b = a
