@@ -48,9 +48,13 @@ class UserElement(models.Model):
 
 class SetTheme(models.Model):
     name = models.CharField(max_length=60)
-    parent = models.ForeignKey('self', on_delete=models.CASCADE)
+    parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+
+    def get_name(self):
+        parent_str = self.parent.get_name() + " > " if self.parent is not None else ""
+        return parent_str + self.name
 
 
 class Set(models.Model):
@@ -63,7 +67,7 @@ class Set(models.Model):
     set_num = models.CharField(max_length=25, primary_key=True)
     name = models.CharField(max_length=200)
     year = models.SmallIntegerField()
-    image_url = models.CharField(max_length=200, blank=True)
+    image_url = models.CharField(max_length=200, null=True)
     theme = models.ForeignKey(SetTheme, on_delete=models.SET_NULL, null=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
