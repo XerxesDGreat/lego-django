@@ -13,6 +13,8 @@ router.register(r'elements', views.ElementViewSet)
 router.register(r'users', views.UserViewSet)
 router.register(r'me/elements', views.UserElementViewSet)
 router.register(r'me/parts', views.UserPartsViewSet, base_name='user-parts')
+router.register(r'sets', views.SetViewSet)
+router.register(r'set-themes', views.SetThemeViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -3,7 +3,6 @@ from project.api import models
 from rest_framework import viewsets, response, permissions
 from project.api import serializers
 import logging
-from django.db.models import Sum, Count
 
 logger = logging.getLogger(__name__)
 
@@ -89,3 +88,13 @@ class UserPartsViewSet(viewsets.GenericViewSet, viewsets.mixins.ListModelMixin, 
         queryset = self.filter_by_category_id(queryset)
 
         return queryset
+
+
+class SetViewSet(viewsets.ModelViewSet):
+    queryset = models.Set.objects.all().order_by('set_num')
+    serializer_class = serializers.SetSerializer
+
+
+class SetThemeViewSet(viewsets.ModelViewSet):
+    queryset = models.SetTheme.objects.all()
+    serializer_class = serializers.SetThemeSerializer

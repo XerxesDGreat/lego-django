@@ -86,3 +86,20 @@ class UserPartSerializer(PartSerializer):
                     user=self.context['request'].user) \
             .select_related('element')
         return UserElementSerializer(many=True).to_representation(elements)
+
+
+class SetSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Set
+        fields = '__all__'
+
+
+class SetThemeSerializer(serializers.ModelSerializer):
+    full_name = serializers.SerializerMethodField()
+
+    class Meta:
+        model = models.SetTheme
+        fields = '__all__'
+
+    def get_full_name(self, obj):
+        return obj.get_name()
